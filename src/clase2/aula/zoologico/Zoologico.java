@@ -1,10 +1,18 @@
 package clase2.aula.zoologico;
 
+import clase3.aula.ClaseObject;
+
 public class Zoologico {
 
     public static String nombre;
 
     public static void main(String[] args) {
+        
+        Tigre tigreJorge = new Tigre("Jorge");
+        Tigre tigreJose = new Tigre("Jorge");
+        
+        System.out.println(tigreJorge.equals(tigreJose));
+        
         
     }
 

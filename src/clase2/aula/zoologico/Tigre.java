@@ -29,4 +29,14 @@ public class Tigre extends Animal {
     void zarpar() {
         System.out.println("Estoy ZARPANDO");
     }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        if (obj instanceof Tigre) {
+            return ((Tigre) obj).getNombre().equals(this.getNombre());
+        }
+        return false;
+
+    }
 }
