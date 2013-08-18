@@ -15,8 +15,12 @@ public class Utiles {
 
         } catch (ParseException e) {
             System.out.println("ERROR: Formato de fecha incorrecta");
+
+        } catch (Exception x) {
+            
+        } finally {
+            return date;
         }
-        
-        return date;
+
     }
 }

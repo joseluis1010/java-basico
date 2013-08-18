@@ -8,9 +8,9 @@ public class Oracion implements Capitalizable {
         this.texto = texto;
     }
 
-    public String agregaPalabra(String t) {
-        texto = texto.concat(" " + t);
-        return texto;
+    public String agregaPalabra(String text) {
+        this.texto = this.texto.concat(" " + text);
+        return this.texto;
     }
 
     @Override
