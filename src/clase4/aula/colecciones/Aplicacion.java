@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public class Aplicacion {
 
@@ -22,8 +23,8 @@ public class Aplicacion {
         Tigre tigrePaco = new Tigre("Paco");
         Gallina gallinaMamba = new Gallina("Mamba");
         
-        List<Animal> arcaNoe = new ArrayList<Animal>();
-        
+        //List<Animal> arcaNoe = new ArrayList<Animal>();
+        Set<Animal> arcaNoe = new HashSet<Animal>();
         arcaNoe.add(tigrePaco);
         arcaNoe.add(tigreJorge);
         arcaNoe.add(gallinaMamba);
