@@ -1,4 +1,4 @@
-package clase3.aula;
+package clase3.aula.utiles;
 
 public class Caracteres {
     

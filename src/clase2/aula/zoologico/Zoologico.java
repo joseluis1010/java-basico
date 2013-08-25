@@ -1,6 +1,6 @@
 package clase2.aula.zoologico;
 
-import clase3.aula.ClaseObject;
+import clase3.aula.utiles.ClaseObject;
 
 public class Zoologico {
 

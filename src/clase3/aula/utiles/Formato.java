@@ -1,4 +1,4 @@
-package clase3.aula;
+package clase3.aula.utiles;
 
 import java.text.DateFormat;
 import java.text.NumberFormat;
@@ -14,7 +14,7 @@ public class Formato {
 
     public static void main(String[] args) {
        
-        System.out.println(Utiles.stringToDate("asdsad/08/2013"));
+        System.out.println(Utiles.stringToDate("54fsdf/08/2013"));
     }
 
     public static void compareFechas() {

@@ -7,7 +7,7 @@ import java.util.Date;
 public class Utiles {
 
     public static Date stringToDate(String fecha) {
-        DateFormat dateFormat = DateFormat.getDateInstance();
+        DateFormat dateFormat =DateFormat.getDateInstance();
         Date date = null;
 
         try {
