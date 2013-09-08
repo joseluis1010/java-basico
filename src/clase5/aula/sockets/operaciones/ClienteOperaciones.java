@@ -31,6 +31,7 @@ public class ClienteOperaciones {
             String msg = in.readLine();
             System.out.println(msg);
 
+            out.println("3");
             out.println("10");
             out.println("20");
             

@@ -4,16 +4,16 @@ import clase5.aula.sockets.servidores.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class AppServidorHilo {
+public class AppOperaciones {
 
     private int port;
 
-    public AppServidorHilo(int port) {
+    public AppOperaciones(int port) {
         this.port = port;
     }
     
     public static void main(String[] args) {
-        AppServidorHilo play = new AppServidorHilo(9999);
+        AppOperaciones play = new AppOperaciones(9999);
         play.ejecutar();
     }
 
@@ -26,7 +26,7 @@ public class AppServidorHilo {
                 System.out.println("Esperando ...");
                 Socket cliente = server.accept();
 
-                OperacionesHilo ts = new OperacionesHilo(cliente);
+                ServidorOperaciones ts = new ServidorOperaciones(cliente);
                 ts.start();
             }
         } catch (Exception e) {
